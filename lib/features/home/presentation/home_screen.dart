@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../core/widgets/price_tag.dart';
+import 'package:warung_digital/core/widgets/price_tag.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
