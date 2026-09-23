@@ -1,0 +1,3 @@
+Why Center is a separate widget rather than a property of Text?
+
+= Dalam Flutter, setiap widget hanya mengerjakan satu tugas, `Text` menampilkan teks (tulisan) saja dan `Center` untuk mengatur posisi di tengah. Memisahkan `Center` dari `Text` berarti `Center` bisa membungkus widget apa pun (`Icon`, `Image`, atau `Column` dll.) tanpa setiap widget perlu atur lagi letaknya. Fungsinya kalau suatu saat teks tidak ingin diposisikan di tengah lagi, programmer cukup membuang Center, dan Text tidak perlu diedit lagi.
